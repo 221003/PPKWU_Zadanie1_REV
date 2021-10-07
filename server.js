@@ -1,6 +1,4 @@
 var express = require("express");
-
-
 var app = express();
 
 function reverseText(text) {
@@ -12,7 +10,8 @@ app.get("/reverse/:text", (req, res) => {
 
     let result = reverseText(text);
 
-    res.json(result);
+    res.status = 200;
+    res.json({ status: "success", data: result });
 })
 
 app.listen(3000, () => {
