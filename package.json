@@ -1,0 +1,19 @@
+{
+  "name": "ppkwu_zadanie1_rev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/221003/PPKWU_Zadanie1_REV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/221003/PPKWU_Zadanie1_REV/issues"
+  },
+  "homepage": "https://github.com/221003/PPKWU_Zadanie1_REV#readme"
+}
