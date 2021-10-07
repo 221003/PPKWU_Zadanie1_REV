@@ -8,7 +8,11 @@ function reverseText(text) {
 }
 
 app.get("/reverse/:text", (req, res) => {
-    console.log(req.params.text);
+    const { text } = req.params;
+
+    let result = reverseText(text);
+
+    res.json(result);
 })
 
 app.listen(3000, () => {
